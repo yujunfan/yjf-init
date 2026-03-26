@@ -31,17 +31,27 @@ export function AboutSection() {
               深耕前端开发<span className="text-primary font-semibold">10年</span>，精通{" "}
               <span className="text-primary">React (v16-v19)</span>、
               <span className="text-primary">React Native</span>、
-              <span className="text-primary">Vue (v2/v3)</span>。
-              具备从零到一构建企业级中后台、高性能可视化大屏及跨平台物联网应用的实战经验。
+              <span className="text-primary">Vue (v2/v3)</span> 及{" "}
+              <span className="text-primary">Electron</span> 桌面端开发。
+              具备从零到一构建企业级中后台、高性能可视化大屏、跨平台 App 及复杂桌面应用的实战经验。
             </p>
             <p className="text-lg leading-relaxed text-foreground/80 mt-4">
               擅长{" "}
-              <span className="text-secondary font-semibold">AI 辅助开发（Cursor Pro）</span>
-              ，显著提升团队开发效率。在工业化管理、智慧体育、政务平台等复杂业务场景中，能运用{" "}
-              <span className="text-primary">MPA 架构</span>、
-              <span className="text-primary">SSR/SSG 渲染策略</span>及{" "}
-              <span className="text-primary">Native Modules 桥接技术</span>
-              ，实现高性能与高可维护性的平衡。
+              <span className="text-secondary font-semibold">IoT 物联网交互</span>
+              （NFC、蓝牙、TCP/串口通讯）、
+              <span className="text-secondary font-semibold">多媒体视频流</span>
+              （海康威视平台对接）及{" "}
+              <span className="text-secondary font-semibold">3D 交互展示</span>
+              （Three.js）。具备全栈视野，能独立完成从架构设计、原生模块桥接（Kotlin/C#）到自动化部署的全流程工作。
+            </p>
+            <p className="text-lg leading-relaxed text-foreground/80 mt-4">
+              作为{" "}
+              <span className="text-primary font-semibold">AI 驱动型工程师</span>
+              ，深度集成{" "}
+              <span className="text-primary">Cursor Pro</span> 辅助开发，在复杂业务场景中，能够灵活运用{" "}
+              <span className="text-primary">Next.js SSR/SSG</span>、
+              <span className="text-primary">Vite MPA</span> 架构及{" "}
+              <span className="text-primary">Native Modules</span> 桥接技术，实现高性能与高可维护性的平衡。
             </p>
 
             {/* Key highlights */}

@@ -6,42 +6,42 @@ const skillCategories = [
   {
     title: "前端框架",
     color: "#3B82F6",
-    skills: ["React v19", "Next.js 15", "Vue 3", "React Native 0.81", "UmiJS 3.5"],
+    skills: ["React v19+", "Next.js", "Vue v3/v2", "React Native 0.81+", "Electron"],
   },
   {
-    title: "编程语言",
+    title: "桌面/原生",
     color: "#8B5CF6",
-    skills: ["TypeScript", "JavaScript ES6+", "C# (.NET WinUI3)"],
+    skills: ["Electron (Vite)", ".Net WinUI3 (C#)", "Android (Kotlin)"],
   },
   {
-    title: "构建工具",
+    title: "通讯/硬件",
     color: "#EAB308",
-    skills: ["Vite", "Webpack", "Expo SDK"],
+    skills: ["TCP Socket", "Serial Port (串口)", "NFC (NTAG213)", "蓝牙交互"],
   },
   {
-    title: "状态管理",
-    color: "#22C55E",
-    skills: ["Zustand", "MobX", "Redux (Dva)", "ahooks"],
-  },
-  {
-    title: "UI & 样式",
+    title: "视频/多媒体",
     color: "#EF4444",
-    skills: ["Ant Design v6", "Tailwind CSS v4", "NativeWind"],
+    skills: ["Video.js", "海康威视对接", "实时直播流", "HIKVISION"],
   },
   {
     title: "数据可视化",
     color: "#06B6D4",
-    skills: ["ECharts", "AntV L7", "高德地图 AMap 2.0", "Fabric.js"],
+    skills: ["Three.js (R3F)", "ECharts", "AntV L7", "高德地图 2.0"],
   },
   {
-    title: "IoT & 安全",
-    color: "#F97316",
-    skills: ["NFC (Kotlin Native)", "AES加密", "SM-Crypto国密"],
+    title: "构建/状态",
+    color: "#22C55E",
+    skills: ["Vite", "Webpack", "Zustand", "MobX", "Tailwind CSS 4"],
   },
   {
-    title: "服务端 & 部署",
+    title: "服务端/部署",
     color: "#94A3B8",
     skills: ["Node.js v20+", "Docker", "Nginx", "Git"],
+  },
+  {
+    title: "AI 赋能",
+    color: "#F97316",
+    skills: ["Cursor Pro", "AI 辅助开发", "逻辑重构", "架构优化"],
   },
 ];
 

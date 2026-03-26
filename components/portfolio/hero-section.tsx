@@ -5,18 +5,20 @@ import { motion } from "framer-motion";
 import { Phone, Mail } from "lucide-react";
 
 const typewriterTexts = [
-  "深耕前端多年",
-  "React · React Native · IoT",
+  "深耕前端开发 10 年",
+  "React · React Native · Electron",
+  "IoT 硬件交互 · 3D 可视化",
   "全栈开发 · AI 赋能",
 ];
 
 // Tech icons for floating animation
 const techIcons = [
   { name: "React", color: "#61DAFB", angle: 0 },
-  { name: "TS", color: "#3178C6", angle: 72 },
-  { name: "Node", color: "#339933", angle: 144 },
-  { name: "Vue", color: "#4FC08D", angle: 216 },
-  { name: "RN", color: "#61DAFB", angle: 288 },
+  { name: "Three.js", color: "#FFFFFF", angle: 60 },
+  { name: "Electron", color: "#47848F", angle: 120 },
+  { name: "Node", color: "#339933", angle: 180 },
+  { name: "Vue", color: "#4FC08D", angle: 240 },
+  { name: "RN", color: "#61DAFB", angle: 300 },
 ];
 
 export function HeroSection() {
@@ -24,7 +26,14 @@ export function HeroSection() {
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
+  const [isMounted, setIsMounted] = useState(false);
+
   useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isMounted) return;
     const currentFullText = typewriterTexts[currentTextIndex];
     
     const timeout = setTimeout(() => {
@@ -45,7 +54,7 @@ export function HeroSection() {
     }, isDeleting ? 50 : 100);
 
     return () => clearTimeout(timeout);
-  }, [displayText, isDeleting, currentTextIndex]);
+  }, [displayText, isDeleting, currentTextIndex, isMounted]);
 
   const scrollToProjects = () => {
     const element = document.querySelector("#projects");
@@ -197,7 +206,7 @@ export function HeroSection() {
               </motion.div>
 
               {/* Floating tech icons */}
-              {techIcons.map((icon, index) => {
+              {isMounted && techIcons.map((icon, index) => {
                 const radius = 140;
                 const x = Math.cos((icon.angle * Math.PI) / 180) * radius;
                 const y = Math.sin((icon.angle * Math.PI) / 180) * radius;

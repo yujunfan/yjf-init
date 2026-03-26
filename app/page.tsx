@@ -9,19 +9,20 @@ import { AboutSection } from "@/components/portfolio/about-section";
 import { SkillsSection } from "@/components/portfolio/skills-section";
 import { ExperienceSection } from "@/components/portfolio/experience-section";
 import { ProjectsSection } from "@/components/portfolio/projects-section";
+import { KnowledgeBaseSection } from "@/components/portfolio/knowledge-base-section";
 import { EvaluationSection } from "@/components/portfolio/evaluation-section";
 import { Footer } from "@/components/portfolio/footer";
 
 export default function PortfolioPage() {
-  const [showWelcome, setShowWelcome] = useState(true);
-  const [showPortfolio, setShowPortfolio] = useState(false);
+  const [showWelcome, setShowWelcome] = useState(false);
+  const [showPortfolio, setShowPortfolio] = useState(true);
 
   // Check if user has seen welcome screen before (in this session)
   useEffect(() => {
     const hasSeenWelcome = sessionStorage.getItem("hasSeenWelcome");
-    if (hasSeenWelcome) {
-      setShowWelcome(false);
-      setShowPortfolio(true);
+    if (!hasSeenWelcome) {
+      setShowWelcome(true);
+      setShowPortfolio(false);
     }
   }, []);
 
@@ -53,6 +54,7 @@ export default function PortfolioPage() {
             <SkillsSection />
             <ExperienceSection />
             <ProjectsSection />
+            <KnowledgeBaseSection />
             <EvaluationSection />
             <Footer />
           </motion.main>

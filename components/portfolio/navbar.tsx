@@ -9,6 +9,7 @@ const navLinks = [
   { label: "技术栈", href: "#skills" },
   { label: "工作经历", href: "#experience" },
   { label: "项目", href: "#projects" },
+  { label: "知识库", href: "#blog" },
   { label: "联系", href: "#contact" },
 ];
 

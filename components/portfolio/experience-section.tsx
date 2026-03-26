@@ -6,19 +6,27 @@ import { Building2, Calendar } from "lucide-react";
 const experiences = [
   {
     company: "广东先知大数据有限公司",
-    position: "高级前端工程师",
-    period: "2019.07 — 2026.03",
-    duration: "6年8个月",
+    position: "资深前端工程师",
+    period: "2019.07 — 至今",
+    duration: "6年+",
     description:
-      "负责公司核心产品前端架构设计，主导工业化管理平台、智慧体育大屏及 NFC 物联网应用等重大项目落地。运用 React (v16-v19)、React Native 及 Next.js，引入 AI 辅助开发流程。",
+      "负责公司核心产品线的架构设计与开发，涵盖工业化管理平台、智慧体育大屏、IoT 物联网应用及 Electron 桌面端 3D 展示系统。主导技术栈升级（React 19, Next.js, RN 0.81），引入 AI 辅助开发流程。",
+  },
+  {
+    company: "广东如一出行有限公司",
+    position: "前端开发工程师",
+    period: "2019.01 — 2019.07",
+    duration: "6个月",
+    description:
+      "负责顺风车后台管理系统及司机/乘客端小程序、H5 的功能开发。",
   },
   {
     company: "广东元心软件有限公司",
     position: "前端开发工程师",
-    period: "2016.03 — 2019.01",
-    duration: "2年10个月",
+    period: "2015.03 — 2018.01",
+    duration: "近3年",
     description:
-      "参与政务数字化平台及综合管理系统开发维护，负责 UI 组件库封装与性能优化，确保多终端适配稳定性。",
+      "参与农业数字化产品开发，负责前端业务功能实现。",
   },
 ];
 

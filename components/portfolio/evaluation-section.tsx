@@ -6,30 +6,30 @@ import { Bot, Globe, Building, Zap } from "lucide-react";
 const evaluations = [
   {
     icon: Bot,
-    title: "AI 赋能",
+    title: "高效 AI 赋能",
     description:
-      "资深 Cursor Pro 用户，擅长 Composer 模式进行复杂逻辑重构与 API 对接，开发效率极高。",
+      "深度使用 Cursor Pro 等 AI 工具，擅长复杂逻辑重构与架构优化，开发效率极高。",
     color: "#00d4ff",
   },
   {
     icon: Globe,
-    title: "全栈视野",
+    title: "全平台开发能力",
     description:
-      "熟悉 Node.js 服务端逻辑与 Android 原生开发，具备处理跨端、跨硬件复杂问题的能力。",
+      "具备 Web、小程序、App 及桌面应用的全平台开发经验，能处理复杂的跨端兼容性问题。",
     color: "#22c55e",
   },
   {
     icon: Building,
-    title: "架构思维",
+    title: "硬件交互专家",
     description:
-      "追求代码简洁与高复用性，擅长通过工程化手段（Vite MPA、自动化适配）解决多终端部署痛点。",
+      "熟悉 TCP、串口、NFC、蓝牙等多种通讯协议，具备丰富的 IoT 硬件对接实战经验。",
     color: "#f59e0b",
   },
   {
     icon: Zap,
-    title: "极客精神",
+    title: "视频处理经验",
     description:
-      "保持对 React 19、Next.js 等前沿技术的持续追踪与落地实践，热衷探索技术边界。",
+      "熟练掌握海康威视等视频平台对接及实时视频流播放技术，具备 3D 交互展示开发经验。",
     color: "#7c3aed",
   },
 ];
