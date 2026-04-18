@@ -7,7 +7,7 @@ const experiences = [
   {
     company: "广东先知大数据有限公司",
     position: "资深前端工程师",
-    period: "2019.07 — 至今",
+    period: "2019.07 — 2026.03",
     duration: "6年+",
     description:
       "负责公司核心产品线的架构设计与开发，涵盖工业化管理平台、智慧体育大屏、IoT 物联网应用及 Electron 桌面端 3D 展示系统。主导技术栈升级（React 19, Next.js, RN 0.81），引入 AI 辅助开发流程。",
