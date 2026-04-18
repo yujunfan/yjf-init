@@ -20,7 +20,7 @@ const evaluations = [
   },
   {
     icon: Building,
-    title: "硬件交互专家",
+    title: "硬件交互能力",
     description:
       "熟悉 TCP、串口、NFC、蓝牙等多种通讯协议，具备丰富的 IoT 硬件对接实战经验。",
     color: "#f59e0b",
